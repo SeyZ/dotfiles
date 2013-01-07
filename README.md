@@ -1,3 +1,14 @@
 # My dotfiles.
 
-Losing its configuration files is is very frustrated. That's why I created my dotfiles repository.
+Losing its configuration files is is very frustrated. That's why I created my
+dotfiles repository.
+
+## Vim installation
+
+git submodule init
+git submodule update
+
+### Command-T
+cd vim/bundle/command-t/ruby/command-t
+ruby extconf.rb
+make

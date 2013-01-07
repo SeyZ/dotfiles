@@ -1,0 +1,39 @@
+[submodule "vim/bundle/command-t"]
+	path = vim/bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "vim/bundle/jade"]
+	path = vim/bundle/jade
+	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/rope"]
+	path = vim/bundle/rope
+	url = git://github.com/klen/rope-vim.git
+[submodule "vim/bundle/surround"]
+	path = vim/bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vim/bundle/vim-less"]
+	path = vim/bundle/vim-less
+	url = git://github.com/groenewege/vim-less
+[submodule "vim/bundle/zenburn"]
+	path = vim/bundle/zenburn
+	url = git://github.com/vim-scripts/Zenburn.git
+[submodule "vim/bundle/delimitmate"]
+	path = vim/bundle/delimitmate
+	url = git://github.com/Raimondi/delimitMate.git
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/bundle/powerline"]
+	path = vim/bundle/powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "vim/bundle/supertab"]
+	path = vim/bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+[submodule "vim/bundle/ultisnipts"]
+	path = vim/bundle/ultisnipts
+	url = git://github.com/vim-scripts/UltiSnips.git
+[submodule "vim/bundle/yankstack"]
+	path = vim/bundle/yankstack
+	url = git://github.com/maxbrunsfeld/vim-yankstack.git
