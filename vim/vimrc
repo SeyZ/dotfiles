@@ -2,6 +2,7 @@
 call pathogen#infect()
 filetype plugin indent on
 
+
 " Filetype
 filetype on
 filetype plugin on
@@ -12,9 +13,6 @@ syntax on
 
 " Hide mouse
 set mousehide
-
-" Fullscreen
-nmap <silent> <F3> :call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 
 " Display
 set guioptions=acg
@@ -43,9 +41,6 @@ nnoremap <C-L> :nohl<CR><C-L>
 " When the page starts to scroll, keep the cursor 8 lines from the top and 8
 " lines from the bottom
 set scrolloff=8
-
-" Clipboard
-set clipboard+=unnamed
 
 " Font
 set guifont=Inconsolata\ 12
@@ -79,7 +74,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 noremap <leader>o <Esc>:CommandT<CR>
 noremap <leader>O <Esc>:CommandTFlush<CR>
 noremap <leader>b <Esc>:CommandTBuffer<CR>
-set wildignore=*.pyc,*~,*.class,target/**,build/**,node_modules/**
+set wildignore=*.pyc,*~,*.class,target/**,build/**,node_modules/**,vendor/**
 " -----------------------
 
 " ------ NERDTree ------
