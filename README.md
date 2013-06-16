@@ -1,6 +1,6 @@
 # My dotfiles.
 
-Losing its configuration files is is very frustrated. That's why I created my
+Losing your configuration files is very frustrating. That's why I created my
 dotfiles repository.
 
 ## Vim installation
